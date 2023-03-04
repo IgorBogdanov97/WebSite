@@ -294,6 +294,11 @@ h1:after {
     padding-top: 30px;
     border-bottom: 3px solid #fcac45;
 }
+.copyright {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
 @media screen and (max-width: 1450px) { 
     nav { 
         margin-left: 20%; 
@@ -309,7 +314,15 @@ h1:after {
         margin-left: 10%; 
     }
 }
+@media screen and (max-width: 556px) {
+    .header__logo {
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 1050px) {
+    .header__logo {
+        width: 100%;
+    }
     .topnav a {
         display: none;
         font-size: 25px;
