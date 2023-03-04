@@ -213,33 +213,30 @@ main .main__about {
 .main__work img:hover {
     opacity: 0.9;
 }
-.contact__form {
+.contact__from {
     padding: 100px 0;
+}
+.contact__from h1 {
+    color: black;
+    margin-bottom: 30px;
 }
 .contact__wrapper {
     width: 753px;
     margin: 0 auto;
     color: #636363;
 }
-.contact__form h1,p {
+.contact__from h1,p {
     text-align: center;
 }
-.contact__form h1 {
-    color: black;
-    margin-bottom: 30px;
-}
-.contact__form p {
-    padding-top: 50px;
+.form__inputs {
+    display: flex;
+    margin-top: 100px;
 }
 form p {
     text-align: left;
 }
 .red {
     color: red;
-}
-.form__inputs {
-    display: flex;
-    margin-top: 100px;
 }
 input {    
     width: 360px;
@@ -250,13 +247,13 @@ input {
 input:first-of-type {
     margin-right: 31px;
 }
-input, textarea {
-    margin-top: 5px;
-    border: 1px solid #999999;
-}
 textarea {
     width: 100%;
     height: 163px;
+}
+input, textarea {
+    margin-top: 5px;
+    border: 1px solid #999999;
 }
 .button__block {
     display: flex;
