@@ -397,4 +397,7 @@ h1:after {
         margin: 0;
         width: 753px;
     }
+    .contact__from form > p{
+        display: flex;
+    }
 }
